@@ -86,7 +86,7 @@ Cost = (Input Tokens × Input Price
 
 ## Sample Output
 
-The following output was generated during a successful test run. Token counts and AI responses may vary between requests.
+The following output was generated during a successful test run. 
 
 ```text
 Connecting to Gemini...
