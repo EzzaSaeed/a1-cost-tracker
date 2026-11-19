@@ -7,7 +7,7 @@ from groq import Groq
 load_dotenv()
 
 # Model names
-GEMINI_MODEL = "gemini-3.8-flash"
+GEMINI_MODEL = "gemini-4-hydrogen"
 GROQ_MODEL = "openai/gpt-oss-20b"
 
 # Same prompt for both providers
@@ -16,8 +16,8 @@ PROMPT = "Explain tokens in one simple sentence."
 # Paid prices per 1 million tokens (USD)
 prices = {
     "gemini": {
-        "input": 0.75,
-        "output": 3.75
+        "input": 1.50,
+        "output": 7.50
     },
     "groq": {
         "input": 0.075,

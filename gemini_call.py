@@ -4,7 +4,7 @@ from google import genai
 
 load_dotenv()
 
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-4-hydrogen"
 
 client = genai.Client()
 

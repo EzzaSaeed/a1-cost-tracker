@@ -85,17 +85,41 @@ Cost = (Input Tokens × Input Price
 ```
 
 Costs are calculated using standard paid API prices per one million tokens. For free-tier API calls, the displayed amount represents a hypothetical paid-price estimate, not an actual charge.
+## Sample Output
+
+The following output was generated during a successful test run. Token counts and AI responses may vary between requests.
+
+```text
+Connecting to Gemini...
+
+--- GEMINI RESULTS ---
+Reply: In AI, tokens are the small chunks of text—like words, parts of words, or punctuation—that language models use to read and generate language.
+Input Tokens: 38
+Output Tokens: 35
+Estimated paid-price cost: $0.00031950
+
+--- GROQ RESULTS ---
+Reply: Tokens are the small pieces of text—such as words or subwords—that a language model reads, processes, and learns from.
+Input Tokens: 78
+Output Tokens: 111
+Estimated paid-price cost: $0.00003915
+```
+
+### Pricing Used
+
+| Provider | Model | Input / 1M tokens | Output / 1M tokens |
+|---|---|---:|---:|
+| Google Gemini | gemini-4-hydrogen | $1.50 | $7.50 |
+| Groq | openai/gpt-oss-20b | $0.075 | $0.30 |
+
+These are estimated standard paid prices. Actual charges depend on the provider's pricing tier and account usage.
+
 
 ## API Pricing References
 
 - [Google Gemini API Pricing](https://ai.google.dev/gemini-api/docs/pricing)
 - [Groq API Pricing and Models](https://console.groq.com/docs/model/openai/gpt-oss-20b)
 
-Check the official pricing pages for the latest rates.
-
-## Error Handling
-
-If Gemini is temporarily unavailable, the program displays an error message and continues to the Groq provider.
 
 ## Author
 
