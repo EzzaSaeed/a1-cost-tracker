@@ -63,7 +63,7 @@ GROQ_API_KEY=your_groq_api_key
 
 Replace the placeholder values with your own API keys.
 
-**Important:** Never upload your `.env` file or expose your API keys publicly.
+
 
 ## Run the Project
 
@@ -84,7 +84,6 @@ Cost = (Input Tokens × Input Price
       + Output Tokens × Output Price) / 1,000,000
 ```
 
-Costs are calculated using standard paid API prices per one million tokens. For free-tier API calls, the displayed amount represents a hypothetical paid-price estimate, not an actual charge.
 ## Sample Output
 
 The following output was generated during a successful test run. Token counts and AI responses may vary between requests.
@@ -111,8 +110,6 @@ Estimated paid-price cost: $0.00003915
 |---|---|---:|---:|
 | Google Gemini | gemini-4-hydrogen | $1.50 | $7.50 |
 | Groq | openai/gpt-oss-20b | $0.075 | $0.30 |
-
-These are estimated standard paid prices. Actual charges depend on the provider's pricing tier and account usage.
 
 
 ## API Pricing References
